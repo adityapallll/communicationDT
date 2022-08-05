@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communication</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <form action="">
+        <div class="textify">
+            <!-- <label for="Campaign">Campaign Name</label> -->
+            <input id="text-field" type="text" placeholder="Communication Label ">
+        </div>
+
+        <div id="values">
+
+            <p>send message to</p>
+
+            <div class="dropDown1">
+                <select name="batch" id="batch">
+                    <option value="BatchName">Batch Name</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+            <div class="dropDown3">
+                <select name="cohort" id="channel">
+                    <option value="Cohort Name">Cohort Name</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+            <div class="dropDown3">
+                <label for="channel">Via</label>
+                <select name="channel" id="channel">
+                    <option value="Channel">WhatsApp</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div id="sidebar">
+            <div class="variables" id="name">Name</div>
+            <div class="variables" id="mentor">Mentor Name</div>
+            <div class="variables" id="average">Cohort Average</div>
+            <div class="variables" id="article">No.of Article</div>
+            <div class="variables" id="character">No.of Character</div>
+            <div class="variables" id="random">Random Article</div>
+        </div>
+
+
+        <div id="text-editor">
+            <textarea id="text-field2" class="form-control" type="text" placeholder="Campaign Name"></textarea>
+        </div>
+
+
+
+        <button type="submit" class="button" id="btn-1"> <img src="Vector (1).png" class="change"> Save as Draft
+        </button>
+        <button type="submit" class="button" id="btn-2"> <img src="Vector (2).png" class="change"> Submit</button>
+
+    </form>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
